@@ -128,5 +128,5 @@ export default function splitText({
       textArray.push(textToPrint)
     }
   }
-  return textArray
+  return [textArray, measureText(textArray[0])]
 }

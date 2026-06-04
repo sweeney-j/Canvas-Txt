@@ -72,7 +72,7 @@ function drawText(
     text: myText,
     justify: config.justify,
     width,
-  })
+  })[0]
 
   const charHeight = config.lineHeight
     ? config.lineHeight
