@@ -15,7 +15,7 @@ export default function splitText({
   text,
   justify,
   width,
-}: SplitTextProps): string[] {
+}: SplitTextProps): (string[] | number)[] {
   const textMap = new Map<string, number>()
 
   const measureText = (text: string): number => {
